@@ -1,12 +1,12 @@
 # SQL style searching 
 
 ## Objective
-[Brief Objective - Remove this afterwards]
+
 
 This lab will use SQL-like searches to pick log tables, which items to filter for, and which columns to present, all in one query. OpenSearch will be used to demonstrate how it implements SQL style searching. SQL allows for a smiplified way to search and filter through massive amounts of data stored in tabular format. 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
+
 
 - Navigate SIEM data using SQL style search.
 - Learn workflow to find tables and dolumn names via SQL search.
@@ -16,7 +16,7 @@ This lab will use SQL-like searches to pick log tables, which items to filter fo
 
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
+
 
 - OpenSearch
 
@@ -97,9 +97,12 @@ Explanation:
 
 3. Filter through data
    SELECT destination_port, COUNT(destination_port)
-   FROM firwall
+   FROM firewall
    GROUP BY destination_port
-   ORDER BY 2
+   ORDER BY 2 DESC
+   LIMIT 5
    
    
    
+![Screenshot 2025-01-23 152848](https://github.com/user-attachments/assets/ce89df25-6798-41ce-a049-dd3794c72772)
+![Screenshot 2025-01-23 152911](https://github.com/user-attachments/assets/18af36cc-cc5f-416c-9217-9131b342a193)
