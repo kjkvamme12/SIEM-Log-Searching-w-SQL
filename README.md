@@ -106,3 +106,8 @@ Explanation:
    
 ![Screenshot 2025-01-23 152848](https://github.com/user-attachments/assets/ce89df25-6798-41ce-a049-dd3794c72772)
 ![Screenshot 2025-01-23 152911](https://github.com/user-attachments/assets/18af36cc-cc5f-416c-9217-9131b342a193)
+
+## Additional Question 2
+1. suricata-flow table contains field called flow.bytes_toclient (how many bytes were sent in each trasaction to the client) , write a query to sum all bytes sentto each IP address and print the top 3 IP addresses by bytes sent. 
+![Screenshot 2025-01-27 075057](https://github.com/user-attachments/assets/dcf67d3d-0311-4f87-9ae4-1054b48892e3)
+![Screenshot 2025-01-27 075920](https://github.com/user-attachments/assets/b747a78c-c181-4b5b-a2d3-359eb568ab17)
